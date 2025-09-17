@@ -650,6 +650,7 @@ export interface MosfetProps<PinLabel extends string = string>
 export interface NetProps {
   name: string;
   connectsTo?: string | string[];
+  ratsNestColor?: string;
 }
 ```
 
